@@ -3,13 +3,104 @@ body{
 }
 
 .main-container{
-    max-width: 250px;
-    min-height:320px;
-    margin: 0 auto;
+    max-width : 251px;
+    min-height : 405px;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 100px;
+
+}
+.wrapper{
+
     background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
     
 }
 
+.display-section{
+height:60px;
+
+}
+
+.display-section input{
+    margin-top:30px;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    color:white;
+    font-family: Helvetica;
+    font-size: x-large;
+    font-weight: 100;
+    border:0px;
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+.key-row{
+    display: flex;
+    gap:1px;
+}
+.operation{
+    background-color: orange;
+    color:white;
+    font-family: Helvetica;
+    font-size: x-large;
+    font-weight: 200;
+}
+.number{
+    background-color: gray;
+    color: white;
+    
+}
+
+.key-row button{
+    margin-top:1px;
+    border:0;
+    padding:0;
+    width:62px;
+    height:62px;
+    font-family: Helvetica;
+    font-size: x-large;
+    font-weight: 200;
+
+}
+.clear{
+    flex-basis: 188px;
+    background-color: darkgray;
+    color:white;
+}
+
+.zero{
+    flex-basis: 125px;
+    background-color: gray;
+    color: white;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    padding:0;
+    margin:0;
+    color:orange;
+    font-family: 'Helvetica',Courier, monospace, ;
+}
+.calc-body{
+    height:290px;
+}
+
+
+/*
 .head-section{
     background-color: gray;
     display: flex;
@@ -75,3 +166,4 @@ h1{
 .zero{
     flex-basis: 120px;
 }
+    */
